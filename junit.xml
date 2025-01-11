@@ -1,0 +1,14 @@
+<testsuites name="jest tests" tests="1" failures="1" time="0.388">
+  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2025-01-11T05:19:30" time="0.388" tests="1">
+    <testcase classname=" Initial test" name=" Initial test" time="0.007">
+      <failure>ReferenceError: expectArticles is not defined
+    at Object.&lt;anonymous&gt; (/Users/danielleyang/GitHub/Leetcode Questions/frontend-template/src/App.test.js:24:3)
+    at Object.asyncJestTest (/Users/danielleyang/GitHub/Leetcode Questions/frontend-template/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /Users/danielleyang/GitHub/Leetcode Questions/frontend-template/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/danielleyang/GitHub/Leetcode Questions/frontend-template/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /Users/danielleyang/GitHub/Leetcode Questions/frontend-template/node_modules/jest-jasmine2/build/queueRunner.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
